@@ -12,5 +12,6 @@ public partial class Page1 : ContentPage
 		int dato1 = Convert.ToInt32(txtDato1.Text);
 		string dato2= txtDato2.Text;
 		Navigation.PushAsync(new Page2(dato1,dato2));
+		//COMENTARIO
     }
 }
