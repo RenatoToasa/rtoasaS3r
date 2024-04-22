@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="rtoasaS3r.Views.Page2"
+             NavigationPage.HasNavigationBar="False"
+             Title="Page2">
+    <VerticalStackLayout>
+        <Label 
+            Text="Page 2"
+            FontSize="24"
+            HorizontalTextAlignment="Center"
+             />
+        <Entry x:Name="txtDato1"
+               IsEnabled="False"/>
+        <Entry x:Name="txtDato2"
+               IsEnabled="False"/>
+        
+    </VerticalStackLayout>
+</ContentPage>
